@@ -871,6 +871,19 @@
 .ui[class*="equal height"].grid {
   display: table;
   table-layout: fixed;
+<<<<<<< HEAD
+=======
+  width: -webkit-calc(100% +  2rem );
+  width: calc(100% +  2rem );
+}
+.ui[class*="equal height"].relaxed.grid {
+  width: -webkit-calc(100% +  3rem );
+  width: calc(100% +  3rem );
+}
+.ui[class*="equal height"][class*="very relaxed"].grid {
+  width: -webkit-calc(100% +  5rem );
+  width: calc(100% +  5rem );
+>>>>>>> f0ca6c9cffc5518851ce3391f5d268a065a947cc
 }
 .ui[class*="equal height"].grid > .row,
 .ui[class*="equal height"].row {
@@ -1172,9 +1185,12 @@
          Theme Overrides
 *******************************/
 
+<<<<<<< HEAD
 
 
 /*******************************
          Site Overrides
 *******************************/
 
+=======
+>>>>>>> f0ca6c9cffc5518851ce3391f5d268a065a947cc
