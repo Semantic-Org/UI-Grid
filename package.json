@@ -1,10 +1,6 @@
 {
   "name": "semantic-ui-grid",
-<<<<<<< HEAD
   "version": "1.0.0-beta",
-=======
-  "version": "1.0.0",
->>>>>>> f0ca6c9cffc5518851ce3391f5d268a065a947cc
   "title": "Semantic UI - Grid",
   "description": "Single component release of grid",
   "homepage": "http://www.semantic-ui.com",
@@ -17,11 +13,5 @@
   "bugs": {
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
-<<<<<<< HEAD
-=======
-  "dependencies": {
-    "jquery": "x.x.x"
-  },
->>>>>>> f0ca6c9cffc5518851ce3391f5d268a065a947cc
   "devDependencies": {}
 }
