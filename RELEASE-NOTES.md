@@ -1,6 +1,5 @@
-### Version 1.0.0 - XX XX, 2014
+### Version 1.0.0 - November 24, 2014
 
-- **Form** - Standard grids now have gutters on left and right of first and last column. ``ui fitted grid`` can be used to remove these margins
 - **Grid** - ``ui divider`` can now be used inside of row columns as well as ``vertically divided grid`` variation
 - **Grid** - Grid rows and columns now support color variations
 - **Grid** - Grid has been rewritten to automatically create row flow without row wrappers
