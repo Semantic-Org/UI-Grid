@@ -8,6 +8,18 @@
 - **Grid** - Fixed page grid allows for fixed pixel size containers used with a grid instead of percentage
 - **Grid** - Vertically divided grid now does not include left/right gutters in divider
 
+### Version 0.19.3 - Sep 11, 2014
+
+- **Grid** - Fixes issue where some responsive grid stylings were being overridden by other variations (for example stackable overriding )
+
+### Version 0.19.2 - Sep 11, 2014
+
+- **Grid** - (Backport from 1.0 branch) Fixes issue where some combinations of (tablet/mobile/computer) only does not function correctly
+
+### Version 0.16.0 - April 22, 2014
+
+- **Form** - Fields can now be aligned to a grid **Thanks seralex-vi**
+
 ### Version 0.12.2 - Jan 21, 2014
 
 - **Grid** - Fixes grid ``only tablet/mobile/computer`` showing both devices on exact pixel of breakpoint, i.e. 768px
