@@ -1,3 +1,13 @@
+### Version 1.3.0 - December 17, 2014
+
+- **Grid** - ``stackable grid`` now display correctly when nested inside a different ``stackable grid``
+- **Segment** - Vertical segments now have padding on first/last element, fixing issues when using with grids
+- **Grid** - Add another grid example
+
+### Version 1.2.0 - December 08, 2014
+
+- **Grid** - Fixes ``ui stackable grid`` sometimes not aligning correctly at mobile sizes with ``ui page grid``
+
 ### Version 1.0.0 - November 24, 2014
 
 - **Grid** - ``ui divider`` can now be used inside of row columns as well as ``vertically divided grid`` variation
