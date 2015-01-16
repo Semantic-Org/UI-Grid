@@ -1,3 +1,16 @@
+### Version 1.7.0 - January 14, 2015
+
+- **Grid** - Added `equal width` variation using `flex-box`, `equal height` now also uses `flex-box` (this may have to be removed if causes unexpected browser issues)
+
+### Version 1.6.0 - January 05, 2015
+
+- **Grid** - ``stackable grid`` now only adds horizontal padding when using ``stackable page grid``, otherwise content will take up full width of parent element
+
+### Version 1.5.0 - December 30, 2014
+
+- **Grid** - Fix display of equal height stackable grid. Add padding to divided stackable grid for dividers
+- **Grid** - Fixed issues where negative margins on ``ui stackable grid`` could cause horizontal scroll bars on mobile
+
 ### Version 1.3.0 - December 17, 2014
 
 - **Grid** - ``stackable grid`` now display correctly when nested inside a different ``stackable grid``
