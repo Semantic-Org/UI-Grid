@@ -1,6 +1,10 @@
 {
   "name": "semantic-ui-grid",
+<<<<<<< HEAD
   "version": "1.0.0-beta",
+=======
+  "version": "1.7.2",
+>>>>>>> 1ed68e8ae59790b0ceb759d003e39bf23a7b3a4e
   "title": "Semantic UI - Grid",
   "description": "Single component release of grid",
   "homepage": "http://www.semantic-ui.com",
@@ -8,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Semantic-Org/UI-Grid.git"
+    "url": "https://github.com/Semantic-Org/UI-Grid.git"
   },
   "bugs": {
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
