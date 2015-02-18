@@ -1,9 +1,5 @@
  /*
-<<<<<<< HEAD
  * # Semantic UI - 1.9.0
-=======
- * # Semantic UI - 1.7.2
->>>>>>> 1ed68e8ae59790b0ceb759d003e39bf23a7b3a4e
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
@@ -1396,7 +1392,6 @@
   display: table;
   table-layout: fixed;
   width: 100% !important;
-<<<<<<< HEAD
 }
 .ui[class*="equal width"].grid > .column,
 .ui[class*="equal width"].grid > .row > .column,
@@ -1446,57 +1441,6 @@
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
 }
-=======
-}
-.ui[class*="equal width"].grid > .column,
-.ui[class*="equal width"].grid > .row > .column,
-.ui.grid > [class*="equal width"].row > .column {
-  display: table-cell;
-}
-
-/* Flexbox (Experimental / Overrides Where Supported) */
-.ui[class*="equal width"].grid {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.ui[class*="equal width"].grid > .row,
-.ui.grid > [class*="equal width"].row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-.ui[class*="equal width"].grid > .column,
-.ui[class*="equal width"].grid > .row > .column,
-.ui.grid > [class*="equal width"].row > .column {
-  display: inline-block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-}
->>>>>>> 1ed68e8ae59790b0ceb759d003e39bf23a7b3a4e
 
 /*----------------------
   Equal Height Columns
@@ -1764,10 +1708,7 @@
     width: auto !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-<<<<<<< HEAD
     float: none !important;
-=======
->>>>>>> 1ed68e8ae59790b0ceb759d003e39bf23a7b3a4e
     padding: 1rem 1rem !important;
   }
   .ui.stackable.grid > .row {

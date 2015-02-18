@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-=======
+### Version 1.8.1 - January 26, 2015
+
+- **Grid** - Removed `text-align: left` from column definition. Now inherits from grid.
+- **Grid** - Fix `doubling grid` setting `100% width` which may cause
+
 ### Version 1.7.0 - January 14, 2015
 
 - **Grid** - Added `equal width` variation using `flex-box`, `equal height` now also uses `flex-box` (this may have to be removed if causes unexpected browser issues)
@@ -99,4 +102,3 @@
 ### Version 0.1.0 - Sep 25, 2013
 
 - Adds relaxed grid variation with increased gutters
->>>>>>> 1ed68e8ae59790b0ceb759d003e39bf23a7b3a4e
