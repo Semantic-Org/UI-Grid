@@ -5,7 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui-grid',
   summary : 'Semantic UI - Grid (official): Single component release of grid',
-  version : '1.9.1',
+  version : '1.9.2',
   git     : 'git://github.com/Semantic-Org/UI-Grid.git',
 });
 
