@@ -1,3 +1,8 @@
+### Version 1.10.0 - February 23, 2015
+
+- **Cards** - Fix consecutive card groups to preserve row flow (similar to consecutive grids)
+- **Grid** - Stackable grid now has horizontal padding by default on mobile unless nested inside a `ui grid` or `ui segment` (not vertical)
+
 ### Version 1.8.1 - January 26, 2015
 
 - **Grid** - Removed `text-align: left` from column definition. Now inherits from grid.
