@@ -1,3 +1,7 @@
+### Version 1.11.1 - March 5, 2015
+
+- **Grid** - Fix issue in `centered grid` not centering `column` inside `row`
+
 ### Version 1.11.0 - March 3, 2015
 
 - **Grid** - Fixes specificity of grid `column` colors to not affect other elements with columns
