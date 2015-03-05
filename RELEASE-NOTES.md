@@ -1,3 +1,7 @@
+### Version 1.11.0 - March 3, 2015
+
+- **Grid** - Fixes specificity of grid `column` colors to not affect other elements with columns
+
 ### Version 1.10.0 - February 23, 2015
 
 - **Cards** - Fix consecutive card groups to preserve row flow (similar to consecutive grids)
