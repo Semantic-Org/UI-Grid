@@ -1,3 +1,7 @@
+### Version 1.11.2 - March 6, 2015
+
+- **Grid** - Equal width grids will now make column content stretch to full height, not just the column itself (requires flexbox). See examples [in the grid docs](http://www.semantic-ui.com/collections/grid.html#equal-height)
+
 ### Version 1.11.1 - March 5, 2015
 
 - **Grid** - Fix issue in `centered grid` not centering `column` inside `row`
