@@ -1,3 +1,8 @@
+### Version 1.11.3 - March 6, 2015
+
+- **Grid** - Fixes `stackable` `equal height/width` grid to remove `flex` on mobile when stacking
+- **Grid** - Fixed `right/left/center aligned` to adjust `align-items` in flex containers like `equal height/width`
+
 ### Version 1.11.2 - March 6, 2015
 
 - **Grid** - Equal width grids will now make column content stretch to full height, not just the column itself (requires flexbox). See examples [in the grid docs](http://www.semantic-ui.com/collections/grid.html#equal-height)
