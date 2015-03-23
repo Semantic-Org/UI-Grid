@@ -1,5 +1,6 @@
-### Version 1.11.3 - March 6, 2015
+### Version 1.11.3-4 - March 6, 2015
 
+- **Grid** - Added opt-in `stretched` variation for `equal height` instead of forcing `flex` on all `equal height columns` which may cause layout issues due to changes in rendering with `flexbox`.
 - **Grid** - Fixes `stackable` `equal height/width` grid to remove `flex` on mobile when stacking
 - **Grid** - Fixed `right/left/center aligned` to adjust `align-items` in flex containers like `equal height/width`
 
