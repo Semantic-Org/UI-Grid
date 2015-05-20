@@ -1,3 +1,7 @@
+### Version 1.12.3 - May 20, 2015
+
+- **Grid** - Fixes bug causing colored variations not to work on columns without row wrappers. Backport from `2.x`
+
 ### Version 1.11.3-4 - March 6, 2015
 
 - **Grid** - Added opt-in `stretched` variation for `equal height` instead of forcing `flex` on all `equal height columns` which may cause layout issues due to changes in rendering with `flexbox`.
