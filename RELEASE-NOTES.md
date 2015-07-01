@@ -1,3 +1,28 @@
+### Version 2.0.0 - June 30, 2015
+
+- **Grid** - `page grid` has been deprecated.  `page grids` used percentage gutters which made it unnecessarily difficult to style responsive page content. Moving forward we recommend using `ui container` a fixed width responsive container for holding page contents.
+- **Container** - Containers are fixed width containers meant for holding page contents, and are a simpler alternative to `ui page grid`, view more [examples in docs](http://www.semantic-ui.com/elements/container.html#examples)
+- **Grid** - Grids now use `flexbox`, columns are now all equal height by default. New flexbox alignment types like `stretch` have been added for easier vertical alignment.
+- **Multiple UI** - Many components now use flexbox, which means previous confusing fixes like `font-size: 0;` to remove [white-space from inline block](https://css-tricks.com/fighting-the-space-between-inline-block-elements/) is no longer necessary. Removing this hack, now means any element can be a direct child of `grid` or `menu`.
+- **Grid** - Grids are now `flexbox` and `equal height` by default, the `equal height` variation can safely be removed
+- **Divider** - `vertical divider` inside `ui grid` now accounts for column padding
+- **Grid** - `celled grid` now removes internal cells on mobile and tablet when used with `doubling` grid responsive variation.
+- **Grid** - Added `large screen only` and `widescreen only` responsive variations for grid.
+- **Grid** - `equal width` grids now works without `row` wrappers
+- **Grid** - rows can now be `stretched` as well as `middle aligned`, `bottom aligned` and `top aligned`!
+- **Grid** - Fixed margins on `internally celled` grid
+- **Grid** - `celled` and `internally celled` grid now use flexbox instead of `display: table;`
+- **Divider** - Fixed slight offset in `vertical divider` when it automatically adjusts to `horizontal divider` inside a `stackable grid`
+- **Grid** - Fixed responsive styling for grid types, more consistent display for `divided`, `celled,` on mobile
+- **Grid** - Fix `doubling row` not working correctly inside a different `doubling grid` (css spec issue)
+- **Grid** - Fix `doubling grid` incorrectly applying width to `(x) column row`
+- **Grid** - First column on `stackable grid` no longer receives top margin
+- **Grid** - `x column wide` inside `equal width/height` now cannot grow beyond column size
+- **Grid** - Fixes colored grid columns not appearing when not nested in rows
+- **Grid** - Small computer `page grid` gutters have been adjusted from 8% to 3% to allow for roomier layouts on small screens.
+- **Grid** - Vertically divided grids now double row spacing to account for dividers
+- **Grid** - `center aligned` no longer centers rows, just text. Use `centered grid` to center a grid column on the page.
+
 ### Version 1.12.3 - May 20, 2015
 
 - **Grid** - Fixes bug causing colored variations not to work on columns without row wrappers. Backport from `2.x`
@@ -97,7 +122,7 @@
 ### Version 0.9.6 - Dec 04, 2013
 
 - **Grid** - Fixes some instances where grid column width ``x wide`` was being overruled by parent element ``x column``.
-- **Header, Grid, Segment** - Adds justified alignemnt
+- **Header, Grid, Segment** - Adds justified alignment
 
 ### Version 0.9.0 - Nov 5, 2013
 
