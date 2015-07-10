@@ -1,3 +1,7 @@
+### Version 2.0.3 - July 8, 2015
+
+- **Divider/Grid** - `vertical divider` no longer has inexplicable right border when stacked on mobile [#2558](https://github.com/Semantic-Org/Semantic-UI/issues/2558)
+
 ### Version 2.0.0 - June 30, 2015
 
 - **Grid** - `page grid` has been deprecated.  `page grids` used percentage gutters which made it unnecessarily difficult to style responsive page content. Moving forward we recommend using `ui container` a fixed width responsive container for holding page contents.
