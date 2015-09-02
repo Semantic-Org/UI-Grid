@@ -1,3 +1,15 @@
+#### Features
+
+- **Grid** - Added new responsive [`reversed`](http://www.semantic-ui.com/collections/grid.html#responsive-order) variations for reversing column order, these are also compatible with other grid types like `divided` and `celled` by device [#2685](https://github.com/Semantic-Org/Semantic-UI/issues/2685)
+
+#### Bugs
+
+- **Grid** - Fixed issue where `relaxed stackable grid` would have incorrect margin on mobile width
+- **Grid** - Fixed issue where nested `stackable grid` would have incorrect margin on mobile.
+- **Menu** - Fixed `(x) column` nested grid with alignment stacking vertically (wrong flex-direction) [#2810](https://github.com/Semantic-Org/Semantic-UI/issues/2810)
+- **Grid / Container** - `ui relaxed grid container` and `ui very relaxed grid container` will now all render at same container width
+- **Grid** - Fixed `stackable celled grid` having doubled border width between rows
+
 ### Version 2.0.3 - July 8, 2015
 
 - **Divider/Grid** - `vertical divider` no longer has inexplicable right border when stacked on mobile [#2558](https://github.com/Semantic-Org/Semantic-UI/issues/2558)
