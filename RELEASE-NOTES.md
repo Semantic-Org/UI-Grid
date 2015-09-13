@@ -1,3 +1,8 @@
+### Version 2.1.4 - Sep 13, 2015
+
+- **Table** - Fixed issue where `(x) column segment table` was inheriting accidentally inheriting some grid styles
+- **Grid** - Fixed `middle aligned grid` not applying to columns [#2959](https://github.com/Semantic-Org/Semantic-UI/issues/2959)
+
 #### Features
 
 - **Grid** - Added new responsive [`reversed`](http://www.semantic-ui.com/collections/grid.html#responsive-order) variations for reversing column order, these are also compatible with other grid types like `divided` and `celled` by device [#2685](https://github.com/Semantic-Org/Semantic-UI/issues/2685)
