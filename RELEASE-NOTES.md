@@ -1,3 +1,8 @@
+### Version 2.1.5 - Nov 1, 2015
+
+- **Grid** - Fixes attached segment 1px offset inside grid column [#3226](https://github.com/Semantic-Org/Semantic-UI/issues/3226)
+- **Grid** - Fixes some inconsistencies with `widescreen only` class [#3161](https://github.com/Semantic-Org/Semantic-UI/issues/3161) **Thanks @mdehoog**
+
 ### Version 2.1.4 - Sep 13, 2015
 
 - **Table** - Fixed issue where `(x) column segment table` was inheriting accidentally inheriting some grid styles
