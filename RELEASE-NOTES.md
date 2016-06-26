@@ -1,3 +1,8 @@
+### Version 2.2.0 - June 26, 2016
+
+- **Grid** - `centered` content would cause `justified` content to appear aligned left. [#3496](https://github.com/Semantic-Org/Semantic-UI/issues/3496)
+- **Grid** - Fixed issue where `vertically divided` grid would have top margin in first `row` group
+
 ### Version 2.1.5 - Nov 1, 2015
 
 - **Grid** - Fixes attached segment 1px offset inside grid column [#3226](https://github.com/Semantic-Org/Semantic-UI/issues/3226)
