@@ -1,3 +1,8 @@
+### Version 2.2.3 - August 21, 2016
+
+- **Grid** - Fixed issue where `(x) aligned column` inside a `(x) aligned row` would not properly apply the `column` alignment
+- **Grid** - Fixed alignment in `centered justified grid** **Thanks @bretto36** [#4224](https://github.com/Semantic-Org/Semantic-UI/issues/4224)
+
 ### Version 2.2.0 - June 26, 2016
 
 - **Grid** - `centered` content would cause `justified` content to appear aligned left. [#3496](https://github.com/Semantic-Org/Semantic-UI/issues/3496)
