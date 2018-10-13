@@ -1,3 +1,7 @@
+### Version 2.4.1 - Oct 13, 2018
+
+- **Grid** - Fix issue with `very relaxed vertically divided grid` having wrong margins on dividers
+
 ### Version 2.2.3 - August 21, 2016
 
 - **Grid** - Fixed issue where `(x) aligned column` inside a `(x) aligned row` would not properly apply the `column` alignment
